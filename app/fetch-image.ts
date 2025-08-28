@@ -1,6 +1,6 @@
 "use server"
 
-import { CAT_API_KEY } from ".env";
+import { CAT_API_KEY } from "./env";
 // 画像情報の型定義
 type Image = {
     url: string;
